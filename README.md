@@ -4,6 +4,8 @@ Shell script to test the performance of the most popular DNS resolvers from your
 
 Includes by default:
  * CloudFlare 1.1.1.1
+ * Bahnhof1 213.80.98.2
+ * Bahnhof2 213.80.101.3
  * Level3 4.2.2.1
  * Google 8.8.8.8
  * Quad9 9.9.9.9
@@ -27,7 +29,7 @@ You need to install bc and dig. For Ubuntu:
 # Utilization
 
 ``` 
- $ git clone --depth=1 https://github.com/cleanbrowsing/dnsperftest/
+ $ git clone --depth=1 https://github.com/Exoriz/dnsperftest
  $ cd dnsperftest
  $ bash ./dnstest.sh 
                test1   test2   test3   test4   test5   test6   test7   test8   test9   test10  Average 
