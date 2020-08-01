@@ -10,8 +10,10 @@ NAMESERVERS=`cat /etc/resolv.conf | grep ^nameserver | cut -d " " -f 2 | sed 's/
 PROVIDERS="
 1.1.1.1#cloudflare 
 1.1.1.2#CloudflareMalware
-213.80.98.2#bahnhof1
-213.80.101.3#bahnhof2
+213.80.100.2#bahnhof1
+212.85.75.170#bahnhof2
+213.80.98.2#bahnhof3
+213.80.101.3#bahnhof4
 4.2.2.1#level3 
 8.8.8.8#google 
 9.9.9.9#quad9 
